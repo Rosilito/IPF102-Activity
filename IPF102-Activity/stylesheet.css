@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-origin: border-box;
+    line-height: 1.3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    background: rgb(2, 80, 143);
+}
+
+nav {
+    flex: 2;
+    justify-content: flex-end;
+}
+/*li {
+    margin-left: 10px;
+}*/
+.title, .input-form {
+    display: flex;
+}
+.title-name {
+    color: white;
+    font-size: 25px;
+    margin-left: 60px;
+}
+.input-form {
+    justify-content: space-around;
+    list-style: none;
+}
+#lbl-login {
+    color: white;
+    font-size: 8px;
+    margin-left: 400px;
+}
+#lbl-password {
+    color: white;
+    font-size: 8px;
+    margin-left: 20px;
+}
+.login-input {
+    justify-content: flex-end;
+    text-decoration: none;
+    width: 160px;
+    height: 17px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+}
+.password-input {
+    justify-content: flex-end;
+    text-decoration: none;
+    width: 160px;
+    height: 17px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.login-button {
+    font-size: 8px;
+    width: 40px;
+    height: 18px;
+    border: 1px solid black;
+    border-top: 1px solid rgb(154, 206, 219);
+    background: rgb(11, 96, 167);
+    color: white;
+    margin-top: 25px;
+    margin-right: 120px;
+}
+.bodycontent {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.left-content{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.right-content {
+    margin-left: 530px;
+    margin-top: -24px;
+}
+.facebook-saying {
+    color: rgb(70, 103, 175);
+}
+.quick {
+    font-weight: normal;
+}
+.image {
+    margin-left: 30px;
+}
+.image img{
+    height: 39vh;
+}
+.name {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: -194px;
+    margin-left: -35px;  
+}
+.firstname{
+    border-radius: 4px;
+    font-size: 16px;
+    border: solid 2px rgb(155, 151, 151);
+}
+.lastname {
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: -160px;
+    border: solid 2px rgb(155, 151, 151);
+}
+.details {
+    list-style: none;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.email{
+    border-radius: 4px;
+    font-size: 16px;
+    width: 413px;
+    border: solid 2px rgb(155, 151, 151);
+}
+.pw{
+    border-radius: 4px;
+    font-size: 16px;
+    border: solid 2px rgb(155, 151, 151);
+    width: 413px;
+    margin-top: 10px;
+}
+.sel-bday {
+    margin-left: 54px;
+    margin-top: 10px;
+}
+.birthday{
+    color: rgb(133, 131, 131);
+}
+.date-select{
+    border-radius: 4px;
+    border: solid 2px rgb(155, 151, 151);
+    color: rgb(133, 131, 131);
+}
+.gender-sel{
+    margin-left: 54px;
+    margin-top: 10px;
+}
+.sel-gender{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+#sg {
+    color: rgb(133, 131, 131);
+}
+.rd {
+    margin-left: 14px;
+}
+.terms {
+    font-size: 14px;
+    color: rgb(133, 131, 131);
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+}
+.sign {
+    font-size: 16px;
+    width: 180px;
+    height: 42px;
+    border: 1px solid rgb(30, 151, 40);
+    border-top: 1px solid rgb(163, 224, 163);
+    background:  rgb(30, 151, 40);
+    color: white;
+    margin-top: 10px;
+    margin-right: 54px;
+    border-radius: 4px;
+}
+.create {
+    margin-top: 19px;
+    font-size: 12px;
+    color: rgb(145, 143, 143);
+}
