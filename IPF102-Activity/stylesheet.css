@@ -14,6 +14,9 @@ header {
     align-items: center;
     background: rgb(2, 80, 143);
 }
+body {
+    background-image: linear-gradient(to top, #cadbe6 100%, #e2eff7 0%);
+}
 
 nav {
     flex: 2;
